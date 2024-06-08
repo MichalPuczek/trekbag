@@ -1,0 +1,21 @@
+// Context API
+// import { useItemsContext } from "../lib/hooks";
+
+import { useItemsStore } from "../stores/itemsStore";
+import AddItemForm from "./AddItemForm";
+import ButtonGroup from "./ButtonGroup";
+
+export default function Sidebar() {
+  // Context API
+  // const { handleAddItem } = useItemsContext();
+
+  // Zustand
+  const addItem = useItemsStore((state) => state.addItem);
+
+  return (
+    <div className="sidebar">
+      <AddItemForm onAddItem={addItem} />
+      <ButtonGroup />
+    </div>
+  );
+}
