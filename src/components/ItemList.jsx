@@ -10,15 +10,15 @@ import EmptyView from "./EmptyView";
 
 const sortingOptions = [
   {
-    label: "Sort by default",
+    label: "Trier par défaut",
     value: "default",
   },
   {
-    label: "Sort by packed",
+    label: "Trier par emballé",
     value: "packed",
   },
   {
-    label: "Sort by unpacked",
+    label: "Trier par non emballé",
     value: "unpacked",
   },
 ];
