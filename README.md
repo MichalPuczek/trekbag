@@ -1,9 +1,21 @@
 # TrekBag
 
-To run the project use :
+TrekBag is a platform that allows users to prepare a checklist before going on vacation and be sure not to forget anything..
 
-`npm install`
-and
-`npm run dev`
+This is a React + Vite project.
 
-This project has been buil
+The project is deployed on Vercel.
+
+### Technologies / frameworks used in this project
+
+#### Zustand
+
+#### Vite
+
+## Getting Started
+
+```bash
+git clone http://url-to-my-repo
+npm install
+npm start
+```
